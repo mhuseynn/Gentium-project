@@ -78,3 +78,7 @@ a:hover::after {
     background-color: #ff2d55;
     transform: translateY(-10px);
 }
+
+#image:hover + h3 {
+    opacity: 1;
+}

@@ -8,48 +8,62 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="bg-black justify-between flex items-center p-[50px] px-[300px]">
-        <h1 class="text-white  text-4xl">Gentium.</h1>
-        <div  class="flex text-white text-lg w-[600px] ml-[250px]">
-            <a href="">Home</a>
-            <a href="" class="ml-[35px]">Services</a>
-            <a href="" class="ml-[35px]">Works</a>
-            <a href="" class="ml-[35px]">About</a>
-            <a href="" class="ml-[35px]">Client</a>
-            <a href="" class="ml-[35px]">Blog</a>
-            <a href="" class="ml-[35px]">Contact</a>   
-            <button>
-                <img class="bg-black ml-[35px] w-[30px] h-[30px]" src="assets/search.png" alt="">
-            </button>
+    <header class="">
+        <nav class="bg-black justify-between flex items-center p-[50px] lg:p-[50px] lg:px-[300px]">
+            <h1 class="text-white  text-4xl">Gentium.</h1>
+            <div  class="flex text-white text-lg w-[600px] ml-[250px]">
+                <a href="">Home</a>
+                <a href="" class="ml-[35px]">Services</a>
+                <a href="" class="ml-[35px]">Works</a>
+                <a href="" class="ml-[35px]">About</a>
+                <a href="" class="ml-[35px]">Client</a>
+                <a href="" class="ml-[35px]">Blog</a>
+                <a href="" class="ml-[35px]">Contact</a>   
+                <button>
+                    <img class="bg-black ml-[35px] w-[30px] h-[30px]" src="assets/search.png" alt="">
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="lg:hidden   bg-black text-white text-lg">
+            <a href="" class="block p-4">Home</a>
+            <a href="" class="block p-4">Services</a>
+            <a href="" class="block p-4">Works</a>
+            <a href="" class="block p-4">About</a>
+            <a href="" class="block p-4">Client</a>
+            <a href="" class="block p-4">Blog</a>
+            <a href="" class="block p-4">Contact</a>
         </div>
+        
     </header>
+  
+    
     
    <main>
     <section  class="bg-black w-full flex flex-col items-center justify-items-center flex-wrap">  
         <div class="flex bg-black   ">
-            <div  class="flex flex-col mt-[200px] pl-[50px] ml-[10px] lg:ml-[30px] w-full  lg:mt-[200px] lg:ml-[200px] " >
+            <div  class="flex flex-col mt-[200px] pl-[50px] ml-[10px] lg:ml-[100px] w-full  lg:mt-[200px] lg:ml-[200px] " >
                 <h1 class="text-white text-3xl lg:text-7xl">We're a digital agency.</h1>
                 <button id="btnn" class="relative overflow-hidden border-solid border-rose-600 border-[1px] mt-[50px] text-white bg-transparent w-[200px] p-[20px]">
                     <span class="z-10 relative">Getting Started</span>
                 </button>
             </div>  
             <div  class="flex bg-black mr-[10px] ">
-                <img class="h-[300px] object-fit mt-[200px] lg:ml-[30px] lg:h-[800px] lg:mr-[800px] lg:mt-[20px]" src="http://gentium.themeflo.com/demo/assets/images/hero_02.jpg" alt="">
+                <img class="h-[300px] object-fit mt-[200px] lg:ml-[30px] lg:h-[700px] lg:mr-[700px] lg:mt-[20px]" src="http://gentium.themeflo.com/demo/assets/images/hero_02.jpg" alt="">
             </div>
         </div>     
        
         <div class="bg-black w-full flex flex-wrap lg:items-center">
-            <a  class="bg-rose-600 flex flex-col  mt-[20px]  bg-black  w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px] lg:ml-[80px] p-[60px] text-white lg:ml-[150px]">
+            <a  class="bg-rose-600 flex flex-col  mt-[20px]  bg-black  w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px]  p-[60px] text-white lg:ml-[150px]">
                 <img class="w-[30px] h-[40px]  lg:[40px] lg:h-[50px] bg-white"  src="assets/bart.svg" alt="">
                 <h3 class="mt-[70px]">Future Vision.</h3>
                 <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur.</p>
             </a>
-            <a  class=" hover:bg-rose-600 duration-500 my-[10px]  bg-stone-900 flex flex-col bg-black w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px] lg:ml-[80px] p-[60px] text-white lg:mt-[25px] lg:mx-[20px]">
+            <a  class=" hover:bg-rose-600 duration-500 my-[10px]  bg-stone-900 flex flex-col bg-black w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px] lg:ml-[30px] p-[60px] text-white lg:mt-[25px] lg:mx-[20px]">
                 <img class=" w-[30px] h-[40px] lg:w-[40px] lg:h-[50px] bg-white"  src="assets/bart.svg" alt="">
                 <h3 class="mt-[70px]">Product Design.</h3>
                 <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur.</p>
             </a>
-            <a  class=" relative hover:bg-rose-600 duration-500 bg-stone-900 mr-[30px]  flex flex-col   bg-black w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px] lg:ml-[80px]   p-[60px] text-white  lg:mt-[20px]">
+            <a  class=" relative hover:bg-rose-600 duration-500 bg-stone-900 mr-[30px]  flex flex-col   bg-black w-[300px] h-[280px] ml-[20px]    lg:w-[400px] lg:h-[380px] lg:ml-[10px]  lg:mr-[50px]  p-[60px] text-white  lg:mt-[20px]">
                 <img class="w-[30px] h-[40px] lg:w-[40px] lg:h-[50px] bg-white"  src="assets/bart.svg" alt="">
                 <h3 class="mt-[70px]">Inovative Solitions.</h3>
                 <p class="mt-[20px]">Lorem ipsum dolor sit amet consectetur.</p>  
@@ -131,9 +145,21 @@
         </div>
 
         <div class="flex  flex-col lg:flex-row lg:ml-[100px]">
-            <img class=" w-[400px] h-[400px] lg:w-[400px] lg:h-[400px]  " src="assets/home.jpg" alt="">
-            <img class="w-[400px] h-[400px] lg:w-[400px] lg:h-[400px] lg:ml-[10px]" src="assets/home.jpg" alt="">
-            <img class="w-[400px] h-[400px]   lg:w-[400px] lg:h-[400px] lg:ml-[20px] lg:mr-[220px]" src="assets/home.jpg" alt="">
+            <div class="w-[400px] h-[400px] overflow-hidden relative">
+                <img id="image" class="w-full h-full lg:w-[400px] lg:h-[400px] filter grayscale hover:grayscale-0 hover:scale-125 transition duration-300" src="assets/home.jpg" alt="">
+                <h3 class="text-3xl opacity-0 text-white absolute top-1/2 right-[60px] left-[30px] transition-opacity duration-300 hover:opacity-100">Product Design</h3>
+            </div>
+            
+            
+            <div class="w-[400px] h-[400px] lg:ml-[10px] overflow-hidden relative">
+                <img id="image" class="w-full h-full lg:w-[400px] lg:h-[400px] filter grayscale hover:grayscale-0 hover:scale-125 transition duration-300" src="assets/home.jpg" alt="">
+                <h3 class="text-3xl opacity-0 text-white absolute top-1/2 right-[30px] left-[30px] transition-opacity duration-300 hover:opacity-100">Product Design</h3>
+            </div>
+            
+            <div class="w-[400px] h-[400px] lg:ml-[10px] overflow-hidden relative">
+                <img id="image" class="w-full h-full lg:w-[400px] lg:h-[400px] filter grayscale hover:grayscale-0 hover:scale-125 transition duration-300" src="assets/home.jpg" alt="">
+                <h3 class="text-3xl opacity-0 text-white absolute top-1/2 right-[30px] left-[30px] transition-opacity duration-300 hover:opacity-100">Product Design</h3>
+            </div>
         </div>
     </section>
 
